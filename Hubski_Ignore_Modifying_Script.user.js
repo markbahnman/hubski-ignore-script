@@ -15,7 +15,6 @@ for(var i=0;i<elem.length;i++)
 {
 
 var ignored = elem[i].innerHTML.search('a90101\">');
-	console.log('ignored = ' + ignored);
 	if (ignored >= 0) {
 		elem[i].style.display='none';
 	}
