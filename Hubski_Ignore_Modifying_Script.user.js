@@ -5,7 +5,7 @@
 // @namespace	hubski.com/feed?id=forwardslash
 // @run-at	document-end
 // @grant	none
-// @match	http*://hubski.com/*
+// @include	http*://hubski.com/*
 // ==/UserScript==
 
 
