@@ -14,7 +14,7 @@ var comments = document.getElementsByClassName('outercomm');
 //Filter comments and posts by seeing if a90101"> occurs within the div tags 
 if (comments.length > 0) {
 	for(var i = 0;i<comments.length;i++) {
-		var ignoredComments = comments.innerHTML.search('a90101\">');
+		var ignoredComments = comments[i].innerHTML.search('a90101\">');
 		if (ignoredComments >= 0) {
 			comments[i].style.display='none';
 		}
